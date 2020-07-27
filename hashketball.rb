@@ -192,7 +192,7 @@ def biggest_shoe_size
   shoe_array = []
   game_hash.each do |location, team_info|
     team_info[:players].each do |player|
-      shoe array << player[:shoe]
+      shoe_array << player[:shoe]
     end
   end
   shoe_array.max
