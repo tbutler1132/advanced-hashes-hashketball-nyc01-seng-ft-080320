@@ -175,6 +175,9 @@ def player_numbers team_name
     jersey_numbers
 end
 
+
+def array_of_players_helper
+
 def player_stats name_of_player
 
 end
