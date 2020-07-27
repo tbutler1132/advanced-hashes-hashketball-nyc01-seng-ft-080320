@@ -176,16 +176,16 @@ def player_numbers team_name
 end
 
 
-def array_of_players_helper
-  array_of_players = []
-  game_hash.each do |location, team_info|
-    array_of_players << team_info[:players]
-  end
-  array_of_players
+def get_players
+  game_hash.map do |location, team|
+    team[:players]
+  end.flatten
 end
 
-def player_stats name_of_player
-
+def player_stats(name_of_player)
+  get_players.find do |player|
+    player[:player_name] == name_of_player
+   end
 end
 
 
