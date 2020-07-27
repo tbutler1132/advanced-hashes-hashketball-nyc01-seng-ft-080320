@@ -185,7 +185,14 @@ end
 def player_stats(name_of_player)
   get_players.find do |player|
     player[:player_name] == name_of_player
-   end
+  end
+end
+
+def biggest_shoe_size
+  shoe_array = []
+  shoe_array << shoe_size
+  shoe_array.max
+  binding.pry
 end
 
 
