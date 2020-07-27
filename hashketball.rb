@@ -179,7 +179,7 @@ end
 def array_of_players_helper
   array_of_players = []
   game_hash.each do |location, team_info|
-    array_of_players << team_info[:players] 
+    array_of_players << team_info[:players]
   binding.pry
   end
 end
