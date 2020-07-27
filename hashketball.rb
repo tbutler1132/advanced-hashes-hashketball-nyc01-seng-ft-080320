@@ -181,7 +181,7 @@ def array_of_players_helper
   game_hash.each do |location, team_info|
     team_info[:players] << array of players
 binding.pry 
-  end   
+  end
 end
 
 def player_stats name_of_player
