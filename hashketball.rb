@@ -192,7 +192,7 @@ def biggest_shoe_size
   shoe_array = []
   shoe_array << shoe_size
   shoe_array.max
-  binding.pry
+binding.pry
 end
 
 
