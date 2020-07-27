@@ -136,7 +136,7 @@ end
 #     end
 #   end
 # end
-# 
+#
 # def shoe_size name_of_player
 #   game_hash.each do |location, team_info|
 #     team_info[:players].each do |player|
@@ -146,7 +146,7 @@ end
 #     end
 #   end
 # end
-# 
+#
 # def team_colors team_name
 #   if team_name == game_hash[:away][:team_name]
 #     return game_hash[:away][:colors]
@@ -154,13 +154,13 @@ end
 #     return game_hash[:home][:colors]
 #   end
 # end
-# 
+#
 # def team_names
 #   array_of_team_names = []
 #   array_of_team_names << game_hash[:away][:team_name]
 #   array_of_team_names << game_hash[:home][:team_name]
 # end
-# 
+#
 # def player_numbers team_name
 #   jersey_numbers = []
 #    if team_name == game_hash[:away][:team_name]
@@ -174,14 +174,14 @@ end
 #     end
 #     jersey_numbers
 # end
-# 
-# 
+#
+#
 # def get_players
 #   game_hash.map do |location, team|
 #     team[:players]
 #   end.flatten
 # end
-# 
+#
 # def player_stats(name_of_player)
 #   get_players.find do |player|
 #     player[:player_name] == name_of_player
