@@ -190,7 +190,7 @@ end
 
 def biggest_shoe_size
   shoe_array = []
-  shoe_array << shoe_size
+  shoe_array << get_players[:shoe_size]
   shoe_array.max
 end
 
