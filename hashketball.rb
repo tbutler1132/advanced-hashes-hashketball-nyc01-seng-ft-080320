@@ -179,7 +179,7 @@ end
 def array_of_players_helper
   array_of_players = []
   
-end  
+end
 
 def player_stats name_of_player
 
