@@ -194,7 +194,7 @@ def biggest_shoe_size
     team_info[:players].each do |player|
       shoe array << player[:shoe]
     end
-  end    
+  end
 end
 
 
