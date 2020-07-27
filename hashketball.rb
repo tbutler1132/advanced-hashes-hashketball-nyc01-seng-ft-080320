@@ -195,7 +195,7 @@ def biggest_shoe_size
       shoe array << player[:shoe]
     end
   end
-  shoe_array.max 
+  shoe_array.max
 end
 
 def big_shoe_rebounds
