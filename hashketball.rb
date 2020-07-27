@@ -195,6 +195,7 @@ def biggest_shoe_size
       shoe array << player[:shoe]
     end
   end
+  shoe_array 
 end
 
 
